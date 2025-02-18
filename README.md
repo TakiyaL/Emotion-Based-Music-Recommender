@@ -42,3 +42,56 @@ Ensure you have **Python 3.8+** installed. Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+
+
+🔹 Running the Project
+1️⃣ Collect Training Data
+
+```bash
+python data_collection.py
+
+Press Esc to stop when enough data is collected.
+
+2️⃣ Train the Model
+
+```bash
+python data_training.py
+
+This saves a trained model as model.h5.
+
+3️⃣ Run Real-time Predictions
+
+```bash
+python inference.py
+
+The model will predict gestures/emotions in real-time.
+
+4️⃣ Run the Music Recommendation App
+
+```bash
+streamlit run music.py
+
+Detects your emotion and suggests YouTube songs accordingly.
+
+ Usage
+🎭 Gesture Recognition
+
+Displays real-time gesture and emotion predictions on screen.
+
+🎵 Emotion-Based Music Recommendation
+
+Detects your mood and recommends songs on YouTube.
+
+🖐️ Interactive Gesture-Controlled Applications
+
+Can be extended to control applications using gestures.
+
+ Future Enhancements
+🚀 More Emotion & Gesture Categories
+📈 Improved Deep Learning Model for Better Accuracy
+🎨 Gesture-Based UI Control for Hands-Free Navigation
+
+ Contributing
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+
