@@ -43,14 +43,6 @@ Ensure you have **Python 3.8+** installed. Install dependencies using:
 ```bash
 pip install -r requirements.txt
 
-## 🚀 Running the Project  
-
-Follow these steps to use the AI system:
-
-### 📌 **1. Collect Training Data**
-
-```bash
-python data_collection.py
 
 
 
