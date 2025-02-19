@@ -1,48 +1,45 @@
+# Emotion-Based Music Recommender
 
-# 🎭 Gesture & Emotion Recognition AI  
+This project is a **real-time emotion detection and music recommendation system** that uses facial and hand landmarks to detect emotions and recommend music based on the detected emotion. The system is built using Python and leverages several libraries, including Mediapipe, OpenCV, Keras, and Streamlit.
 
-## 🚀 Overview  
-This project is a **gesture and facial-expression-based AI system** that detects hand gestures and facial expressions using **MediaPipe** and a **deep learning model**. The model is trained to recognize gestures and emotions and apply them in **real-world applications**, such as:  
-- **Real-time emotion-based music recommendations** 🎶  
-- **Gesture-based interaction** 🖐️  
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## ✨ Features  
-✅ **Real-time gesture and facial recognition** using **MediaPipe**  
-✅ **Trainable deep learning model** with **TensorFlow/Keras**  
-✅ **Interactive AI applications** (e.g., emotion-based song recommendations)  
-✅ **Webcam-based real-time predictions**  
-✅ **Easy-to-use Streamlit UI**  
+## Overview
 
----
+The project consists of four main components:
+1. **Data Collection**: Collects facial and hand landmark data from the user's webcam.
+2. **Model Training**: Trains a neural network model using the collected data.
+3. **Real-Time Inference**: Performs real-time emotion detection using the trained model.
+4. **Music Recommendation**: Integrates the emotion detection model with a Streamlit web app to recommend music based on the detected emotion.
 
-## 🛠️ Technologies Used  
-- 🎥 **MediaPipe** - Real-time landmark detection  
-- 🤖 **TensorFlow/Keras** - Model training and inference  
-- 🎮 **OpenCV** - Video processing  
-- 🎶 **Streamlit + WebRTC** - Web-based interface for emotion detection  
-- 📝 **NumPy** - Data handling and storage  
+## Features
 
----
+- **Real-Time Emotion Detection**: Detects emotions in real-time using facial and hand landmarks.
+- **Music Recommendation**: Recommends music based on the detected emotion, user's preferred language, and singer.
+- **Interactive Web Interface**: Provides a user-friendly web interface using Streamlit.
+- **Customizable**: Users can input their preferred language and singer for personalized recommendations.
 
-## 📂 Project Structure  
+## Technologies Used
 
-| File | Description |
-|------|------------|
-| `data_collection.py` | Collects gesture and facial expression data using **MediaPipe** |
-| `data_training.py` | Trains a **deep learning model** on collected data |
-| `inference.py` | Runs real-time predictions using the trained model |
-| `music.py` | Detects emotions and recommends songs based on mood |
+- **Mediapipe**: For detecting facial and hand landmarks.
+- **OpenCV**: For capturing and processing video frames.
+- **Keras/TensorFlow**: For building, training, and deploying the neural network model.
+- **Streamlit**: For creating the web interface.
+- **WebRTC**: For real-time video streaming in the Streamlit app.
+- **NumPy**: For handling numerical data and array operations.
+- **Webbrowser**: For opening YouTube search results.
 
----
+## Setup and Installation
 
-## 📥 Installation  
-
-### 🔹 Prerequisites  
-Ensure you have **Python 3.8+** installed. Install dependencies using:  
-
-```bash
-pip install -r requirements.txt
-
-
-
-
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/emotion-based-music-recommender.git
+   cd emotion-based-music-recommender
