@@ -93,31 +93,31 @@ Click the "Recommend me songs" button to get music recommendations based on your
 ## Usage
 **Data Collection**
 
-Run data_collection.py to collect facial and hand landmark data for different emotions.
+Run **data_collection.py** to collect facial and hand landmark data for different emotions.
 
 The collected data will be saved as .npy files (e.g., happy.npy, sad.npy).
 
 **Model Training**
 
-Run data_training.py to train the neural network model using the collected data.
+Run **data_training.py** to train the neural network model using the collected data.
 
 The trained model will be saved as model.h5, and the labels will be saved as labels.npy.
 
 **Real-Time Emotion Detection**
 
-Run inference.py to perform real-time emotion detection using your webcam.
+Run **inference.py** to perform real-time emotion detection using your webcam.
 
 The detected emotion will be displayed on the video feed.
 
 **Music Recommendation**
 
-Run music.py to start the Streamlit web app.
+Run **music.py** to start the Streamlit web app.
 
 Input your preferred language and singer.
 
 The app will detect your emotion and recommend music based on your inputs.
 
-Click the "Recommend me songs" button to open YouTube search results with the recommended songs.
+Click the **"Recommend me songs"** button to open YouTube search results with the recommended songs.
 
 ## Project Structure
 
