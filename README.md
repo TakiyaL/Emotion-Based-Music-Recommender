@@ -32,7 +32,7 @@ The project consists of four main components:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/emotion-based-music-recommender.git
+   git clone https://github.com/TakiyaL/emotion-based-music-recommender.git
    cd emotion-based-music-recommender
 
 2. **Install Dependencies**:
