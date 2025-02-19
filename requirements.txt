@@ -1,0 +1,17 @@
+# requirements.txt
+
+# Core Libraries
+numpy==1.23.5
+opencv-python==4.7.0.72
+mediapipe==0.10.0
+
+# Machine Learning and Deep Learning
+tensorflow==2.12.0
+keras==2.12.0
+
+# Web Application
+streamlit==1.24.0
+streamlit-webrtc==0.44.4
+
+# Additional Utilities
+webbrowser==0.2.1
